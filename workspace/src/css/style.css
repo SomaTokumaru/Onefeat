@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* base */
+
+html {
+  height: 100%;
+}
+
+body {
+  color: black;
+  font-family: "Open Sans";
+  line-height: 1.2;
+  font-size: 64px;
+  height: 100%;
+  background-image: url(../images/Onefeat.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  position: relative;
+  background-color: #214d5c;
+}
+
+/* main */
+.comingsoon {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fadcc0;
+  font-size: 75%;
+}
